@@ -7,6 +7,7 @@ import { SearchComponent } from './pages/search/search.component';
 import { CollectionsComponent } from './pages/collections/collections.component';
 import { LyricsComponent } from './pages/lyrics/lyrics.component';
 import { SearchBoxComponent } from './shared/search-box/search-box.component';
+import { HeaderComponent } from './shared/header/header.component';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -16,7 +17,8 @@ import { AppRoutingModule } from './app-routing.module';
     SearchComponent,
     CollectionsComponent,
     LyricsComponent,
-    SearchBoxComponent
+    SearchBoxComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
